@@ -1,0 +1,4 @@
+1. insert into rezerwacje(nr_stolika, data_rez, liczba_osob, telefon) values(1, '2017-07-04', 4, '111222333');
+2. select nazwa, cena from dania where typ=2;
+3. select nazwa from dania where typ=3 and cena<15;
+4. update pracownicy set stanowisko=4 where stanowisko=3;

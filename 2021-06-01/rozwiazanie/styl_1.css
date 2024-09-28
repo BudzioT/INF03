@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: #F6E5DC;
+    font-family: Verdana
+}
+
+h1 {
+    margin: 0;
+}
+
+#banner {
+    background-color: #2F180C;
+    color: khaki;
+
+    height: 60px;
+    text-align: center;
+}
+
+#left {
+    width: 60%;
+    float: left;
+}
+
+#right {
+    font-size: 150%;
+    padding: 70px;
+    float: left;
+}
+
+#bottom {
+    background-color: #D0B6A8;
+
+    text-align: center;
+    padding: 30px;
+    clear: both;
+}
+
+#footer {
+    background-color: #2F180C;
+    color: khaki;
+
+    height: 60px;
+}
+
+img {
+    height: 350px;
+}
+
+.button {
+    background-color: #2F180C;
+    color: khaki;
+
+    margin: 10px;
+    padding: 5px;
+}
