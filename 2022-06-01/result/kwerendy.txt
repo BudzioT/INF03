@@ -1,0 +1,4 @@
+1. select id, nazwa, wystepowanie from ryby where styl_zycia=1;
+2. select ryby_id, wymiar_ochronny from okres_ochronny where wymiar_ochronny < 30;
+3. select ryby.nazwa, lowisko.akwen, lowisko.wojewodztwo from lowisko inner join ryby on ryby.id=lowisko.ryby_id where lowisko.rodzaj=3;
+4. alter table ryby add column dobowy_limit tinyint unsigned;
