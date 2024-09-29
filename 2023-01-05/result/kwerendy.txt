@@ -1,0 +1,4 @@
+1. select dataZadania, wpis from zadania where miesiac="Sierpien";
+2. select miesiac, rok from zadania where dataZadania="2020-08-07";
+3. select miesiac, count(id) from zadania where wpis like "Weterynarz%" group by miesiac;
+4. update zadania set wpis="Wycieczka: Zalew Mietkowski" where dataZadania="2020-08-09";
